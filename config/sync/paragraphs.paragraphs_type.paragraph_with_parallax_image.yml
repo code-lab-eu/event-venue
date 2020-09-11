@@ -1,0 +1,10 @@
+uuid: 44c3a3a7-0ad3-4959-9117-b1387c616393
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_with_parallax_image
+label: 'Paragraph with parallax image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

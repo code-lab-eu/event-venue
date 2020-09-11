@@ -1,0 +1,12 @@
+uuid: 8fbdc041-cc7d-4827-8a70-e01c7b0562b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: zSzOcryBG_zeNT11nyZE0iOUVGBoaIVBgd03CgwNLso
+id: media.d_banner
+label: Banner
+targetEntityType: media
+cache: true

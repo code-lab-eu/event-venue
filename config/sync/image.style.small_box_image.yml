@@ -1,0 +1,17 @@
+uuid: 8c1af51d-28ac-47a6-84d9-02760effa3e1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wZuAjuUj08851sUtV2CzD17YWwOp63hzLMR1t8gCYxA
+name: small_box_image
+label: 'Small box image'
+effects:
+  51e74f9e-3f1a-4fc5-a79e-fc5eedfa9136:
+    uuid: 51e74f9e-3f1a-4fc5-a79e-fc5eedfa9136
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 490
+      height: 370
+      anchor: center-center

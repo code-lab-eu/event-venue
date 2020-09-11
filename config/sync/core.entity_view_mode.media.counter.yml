@@ -1,0 +1,12 @@
+uuid: f9875614-7c98-4923-b4f2-3edfcaaa7b39
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: aqSMz0JpOm4rS_N_fWjnJvWMZrQu9Pcs35LJ92TbGrw
+id: media.counter
+label: Counter
+targetEntityType: media
+cache: true

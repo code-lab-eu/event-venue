@@ -1,0 +1,27 @@
+uuid: d8e6c67f-fa66-4fe8-81b0-61a1b5c69cc0
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: EtUSpmYM8J3XwpRW_rshvM-aEPwqBK6hHW6XBf8GCVk
+id: mainnavigation
+theme: droopler_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: 6a6ef673-901a-4baa-941d-85d1fb53262f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RLkJywJCbLEQvJWJ4sFIteGoUznpR9c9TEomEKzsUKI
+id: d_p_text_paged
+label: 'Text page'
+icon_uuid: null
+icon_default: null
+description: 'A simple text paragraph.'
+behavior_plugins: {  }

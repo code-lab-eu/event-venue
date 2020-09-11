@@ -1,0 +1,44 @@
+uuid: 088d7c19-4b91-46db-821c-ccce7998de8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_with_parallax_image.field_parallax_image
+    - field.field.paragraph.paragraph_with_parallax_image.field_parallax_text
+    - field.field.paragraph.paragraph_with_parallax_image.field_parallax_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.paragraph_with_parallax_image
+  module:
+    - svg_image
+id: paragraph.paragraph_with_parallax_image.default
+targetEntityType: paragraph
+bundle: paragraph_with_parallax_image
+mode: default
+content:
+  field_parallax_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_parallax_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_parallax_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

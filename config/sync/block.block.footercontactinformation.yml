@@ -1,0 +1,25 @@
+uuid: 701c84ef-e334-4f0c-b288-54851f18107c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:62f914e0-0e8a-444c-9f81-25a9055308a0'
+  module:
+    - block_content
+  theme:
+    - droopler_subtheme
+id: footercontactinformation
+theme: droopler_subtheme
+region: footer_main
+weight: 0
+provider: null
+plugin: 'block_content:62f914e0-0e8a-444c-9f81-25a9055308a0'
+settings:
+  id: 'block_content:62f914e0-0e8a-444c-9f81-25a9055308a0'
+  label: 'Footer contact information'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

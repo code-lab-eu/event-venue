@@ -1,0 +1,12 @@
+uuid: 028fe9a2-fb8a-4128-afec-c3f27544e9fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VBqZGW4EtxYklZNwH1auE6svc9Du7EUaDe4Kv3Xp7QQ
+id: media.d_icon
+label: Icon
+targetEntityType: media
+cache: true

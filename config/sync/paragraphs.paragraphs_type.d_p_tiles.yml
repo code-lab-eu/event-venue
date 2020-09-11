@@ -1,0 +1,12 @@
+uuid: 606944d8-3501-4fd7-b46e-f6f972f59efd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NL2Wx03RPk7JCQEV-h2cDC7H0rW3E2YKcxDTB2-AE4E
+id: d_p_tiles
+label: 'Tiles gallery'
+icon_uuid: null
+icon_default: null
+description: 'Masonry gallery paragraph with Colorbox support'
+behavior_plugins: {  }

@@ -44,6 +44,7 @@
 // Colours - The Greeks
 // -------------------------
 // $color-agamemnon: #196dba;
+$color-agamemnon: #344b61;
 // $color-menelaus: #5d98ce;
 // $color-nestor: #65e2ff;
 // $color-odysseus: white;
@@ -72,6 +73,10 @@
 // These variables are applicable to global HTML elements.
 // They are not tied to any node or paragraph.
 
+// Sunrise custom design colours
+$sunrise-orange-color:#fba52b;
+$sunrise-red-title-color:#ad3304;
+
 // Links
 // -------------------------
 // $link-color: $color-agamemnon;
@@ -79,7 +84,7 @@
 
 // Font variables used in Droopler
 // -------------------------
-// $font-text: 'Lato', sans-serif;
+$font-text: 'Times New Roman', sans-serif;
 // $font-header: 'Lato', sans-serif;
 // $font-header-weight: bold;
 

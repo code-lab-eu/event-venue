@@ -1,0 +1,19 @@
+uuid: 3f259431-9bce-4627-bd93-34cc50b18d85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parallax_text
+    - paragraphs.paragraphs_type.paragraph_with_parallax_image
+id: paragraph.paragraph_with_parallax_image.field_parallax_text
+field_name: field_parallax_text
+entity_type: paragraph
+bundle: paragraph_with_parallax_image
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

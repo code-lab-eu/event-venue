@@ -1,0 +1,19 @@
+uuid: 2fef61e0-1a50-44fe-b287-d5d5519dd07f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_parallax_text
+field_name: field_parallax_text
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

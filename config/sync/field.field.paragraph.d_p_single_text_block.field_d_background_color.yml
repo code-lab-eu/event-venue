@@ -1,0 +1,21 @@
+uuid: d75444df-50dd-4f36-a46a-48e5bae4b356
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_background_color
+    - paragraphs.paragraphs_type.d_p_single_text_block
+_core:
+  default_config_hash: TUK_wcj_diZyDba3m-RrsU0F8fD9v2bPb8P1-un0LQM
+id: paragraph.d_p_single_text_block.field_d_background_color
+field_name: field_d_background_color
+entity_type: paragraph
+bundle: d_p_single_text_block
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
