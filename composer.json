@@ -21,11 +21,10 @@
     "require": {
         "composer/installers": "^1.2",
         "droptica/droopler": "dev-develop",
-        "drupal/console": "~1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/fontawesome": "~1",
-        "drush/drush": "~9.0",
+        "drush/drush": "~10.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
