@@ -1,4 +1,7 @@
-image_fields: {  }
+image_fields:
+  media--d_image--field_media_image--default: '1'
+  media--d_image--field_media_image--carousel_item: '1'
+  media--d_image--field_media_image--gallery_item: '1'
 alter_tag:
   img: img
   iframe: '0'
