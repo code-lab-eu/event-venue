@@ -16,6 +16,9 @@
 # Ignore scaffolded files.
 /web/sites/default/default.services.yml
 /web/sites/default/default.settings.php
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
 
 # Ignore sensitive information.
 /web/sites/*/settings.php
@@ -32,5 +35,7 @@
 /.idea/
 /prototype/.idea/
 
-# Ignore log files.
+# Ignore file types that are not suitable for version control.
 *.log
+*.sql
+*.sql.gz
