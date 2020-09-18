@@ -4,9 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.gallery.field_gallery_image
+    - image.style.gallery_thumbnail
     - paragraphs.paragraphs_type.gallery
   module:
-    - svg_image
+    - photoswipe
 id: paragraph.gallery.default
 targetEntityType: paragraph
 bundle: gallery
@@ -14,15 +15,16 @@ mode: default
 content:
   field_gallery_image:
     weight: 0
-    label: above
+    label: hidden
     settings:
-      svg_attributes:
-        width: null
-        height: null
-      svg_render_as_image: true
-      image_style: ''
-      image_link: ''
+      photoswipe_node_style_first: ''
+      photoswipe_node_style: gallery_thumbnail
+      photoswipe_image_style: ''
+      photoswipe_caption: title
+      photoswipe_caption_custom: ''
+      photoswipe_view_mode: default
+      photoswipe_reference_image_field: ''
     third_party_settings: {  }
-    type: image
+    type: photoswipe_field_formatter
     region: content
 hidden: {  }
