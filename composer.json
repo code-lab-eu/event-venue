@@ -8,21 +8,12 @@
         "docs": "https://www.droopler.com/developers",
         "issues": "https://www.drupal.org/project/issues/droopler?categories=All"
     },
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        "asset": {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    },
     "require": {
+        "code-lab-eu/robo-drupal-setup": "dev-master",
         "composer/installers": "^1.2",
         "droptica/droopler": "dev-develop",
         "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-recommended": "^8.8",
+        "drupal/core": "^8.8",
         "drupal/fontawesome": "~1",
         "drush/drush": "~10.0",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -56,6 +47,20 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+        }
+    },
+    "repositories": {
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "code-lab-eu/robo-drupal-setup": {
+            "type": "vcs",
+            "url": "https://github.com/code-lab-eu/robo-drupal-setup.git"
+        },
+        "drupal-packages": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
         }
     }
 }
