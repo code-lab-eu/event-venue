@@ -1,0 +1,40 @@
+default:
+  suites:
+    default:
+      contexts:
+        - Drupal\DrupalExtension\Context\DrupalContext
+        - Drupal\DrupalExtension\Context\MarkupContext
+        - Drupal\DrupalExtension\Context\MessageContext
+        - Drupal\DrupalExtension\Context\MinkContext
+      filters:
+        tags: '~@wip'
+  extensions:
+    Drupal\MinkExtension:
+      base_url: '${BEHAT_BASE_URL}'
+      ajax_timeout: 10
+      goutte: ~
+      javascript_session: 'selenium2'
+      browser_name: 'chrome'
+      selenium2:
+        wd_host: '${WEBDRIVER_HOST}'
+    Drupal\DrupalExtension:
+      api_driver: 'drupal'
+      blackbox: ~
+      drupal:
+        drupal_root: '${WEBROOT}'
+      selectors:
+        message_selector: '.alert, .messages'
+        error_message_selector: '.alert.alert--error, .messages.message--error'
+        success_message_selector: '.alert.alert--status, .messages.messages--status'
+        warning_message_selector: '.alert.alert--warning, .messages.message--warning'
+      text:
+        log_in: 'Inloggen'
+        log_out: 'Sign out'
+        username_field: 'E-mailadres'
+        password_field: 'Wachtwoord'
+    LoversOfBehat\ScreenshotExtension:
+      storage:
+        filesystem:
+          path: '${SCREENSHOTS_PATH}'
+  formatters:
+    progress: ~

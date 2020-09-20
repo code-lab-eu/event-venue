@@ -12,11 +12,12 @@
         "code-lab-eu/robo-drupal-setup": "dev-master",
         "composer/installers": "^1.2",
         "droptica/droopler": "dev-develop",
-        "drupal/core-composer-scaffold": "^8.8",
         "drupal/core": "^8.8",
+        "drupal/core-composer-scaffold": "^8.8",
         "drupal/fontawesome": "~1",
         "drush/drush": "~10.0",
         "oomphinc/composer-installers-extender": "^1.1",
+        "vlucas/phpdotenv": "^5.2",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
@@ -30,6 +31,9 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true
+    },
+    "autoload": {
+        "files": ["load.environment.php"]
     },
     "extra": {
         "drupal-scaffold": {
