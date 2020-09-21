@@ -5,6 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Tenor+Sans&display=swap');
 
+/*Headings*/
+.page-wrapper h1,.page-wrapper h2,.page-wrapper h3{
+  font-family: 'Tenor Sans', sans-serif;
+  color: #ad3304;
+  text-transform: uppercase;
+}
+
+/*Home page */
 #header {
     background-color: $sunrise-orange-color;
 }
@@ -34,24 +42,6 @@ header.header {
     background-size: cover;
 }
 
-/*.paragraph-parallax-title{
-margin: 0;
-font-size: 35px;
-font-family: 'Inter', sans-serif;
-letter-spacing: 8px;
-text-transform: uppercase;
-padding-bottom: 20px;
-padding-top: 20px;
-color: $sunrise-red-title-color;
-font-weight: bold;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: 50px;
-padding-bottom: 20px;
-}*/
-
 .page-wrapper .paragraph-parallax-title{
   font-size: 35px;
   font-family: 'Tenor Sans', sans-serif;
@@ -68,6 +58,27 @@ padding-bottom: 20px;
   color: #140504c7;
   margin-bottom: 50px;
 }
+/*Gallery page*/
+.paragraph--type--d-p-text-paged{
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+}
+.field--name-field-d-main-title{
+  margin-bottom: 0px !important;
+}
+.paragraph--type--gallery{
+  border: 1px solid #bab1b161;
+  margin-bottom: 71.25px;
+}
+
+.gallery-thumbnails{
+  padding: 15px;
+}
+.gallery-thumbnail{
+  padding: 15px;
+}
+
+/*Footer page*/
 footer.site-footer{
   .bottom-footer{
       background-color: unset;
