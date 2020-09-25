@@ -37,6 +37,11 @@
             "php": "7.2.33"
         }
     },
+    "scripts": {
+        "post-drupal-scaffold-cmd": [
+            "./vendor/bin/robo environment:setup-basic-auth"
+        ]
+    },
     "autoload": {
         "files": ["load.environment.php"]
     },
