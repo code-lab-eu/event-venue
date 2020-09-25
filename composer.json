@@ -9,6 +9,7 @@
         "issues": "https://www.drupal.org/project/issues/droopler?categories=All"
     },
     "require": {
+        "php": "~7.2",
         "code-lab-eu/robo-drupal-setup": "dev-master",
         "composer/installers": "^1.2",
         "droptica/droopler": "dev-develop",
@@ -31,7 +32,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.2.33"
+        }
     },
     "autoload": {
         "files": ["load.environment.php"]
