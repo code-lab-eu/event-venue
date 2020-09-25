@@ -16,7 +16,7 @@ vesi:
 staging:
   host: sunrise.code-lab.eu
   user: codelab
-  root: /home/codelab/domains/code-lab.eu/event-venue
+  root: /home/codelab/domains/code-lab.eu/event-venue/web
   uri: http://sunrise.code-lab.eu
 
 #production:

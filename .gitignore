@@ -9,6 +9,7 @@
 
 # Ignore files specific to the current environment.
 /.env
+/backups/
 /behat.yml
 /drush/drush.yml
 /web/sites/*/services.yml
