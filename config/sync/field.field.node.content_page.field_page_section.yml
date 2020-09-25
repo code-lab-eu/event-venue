@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.d_p_group_of_text_blocks
     - paragraphs.paragraphs_type.d_p_text_paged
     - paragraphs.paragraphs_type.gallery
+    - paragraphs.paragraphs_type.map
     - paragraphs.paragraphs_type.paragraph_with_parallax_image
   module:
     - entity_reference_revisions
@@ -34,6 +35,7 @@ settings:
       d_p_block: d_p_block
       gallery: gallery
       paragraph_with_parallax_image: paragraph_with_parallax_image
+      map: map
     target_bundles_drag_drop:
       d_p_banner:
         weight: 13
@@ -95,6 +97,9 @@ settings:
       gallery:
         enabled: true
         weight: 41
+      map:
+        enabled: true
+        weight: 43
       paragraph_with_parallax_image:
         enabled: true
         weight: 42

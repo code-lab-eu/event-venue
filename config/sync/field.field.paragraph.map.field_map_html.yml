@@ -1,0 +1,21 @@
+uuid: b22ac026-a461-49ef-913c-7925efc31de6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_map_html
+    - paragraphs.paragraphs_type.map
+  module:
+    - text
+id: paragraph.map.field_map_html
+field_name: field_map_html
+entity_type: paragraph
+bundle: map
+label: 'Map HTML'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

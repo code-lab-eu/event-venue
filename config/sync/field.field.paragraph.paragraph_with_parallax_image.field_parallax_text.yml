@@ -11,7 +11,7 @@ entity_type: paragraph
 bundle: paragraph_with_parallax_image
 label: Text
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
