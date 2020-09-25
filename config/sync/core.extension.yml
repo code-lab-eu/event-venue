@@ -22,7 +22,6 @@ module:
   d_block_field: 0
   d_content: 0
   d_content_init: 0
-  d_geysir: 0
   d_lang_dropdown: 0
   d_media: 0
   d_p: 0
@@ -59,7 +58,6 @@ module:
   file: 0
   filter: 0
   fontawesome: 0
-  geysir: 0
   help: 0
   history: 0
   image: 0
@@ -80,6 +78,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  photoswipe: 0
   rdf: 0
   redirect: 0
   responsive_image: 0
