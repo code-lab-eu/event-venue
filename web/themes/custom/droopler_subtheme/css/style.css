@@ -24668,6 +24668,66 @@ header.header .region-primary-menu .region-we-mega-menu .navbar.navbar-we-mega-m
   padding: 15px;
 }
 
+/*Contact page*/
+#paragraph-d_p_group_of_text_blocks-17 .paragraph--type--d-p-group-of-text-blocks {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .address-column-content,
+#paragraph-d_p_group_of_text_blocks-17 .phone-column-content,
+#paragraph-d_p_group_of_text_blocks-17 .mail-column-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .address-icon,
+#paragraph-d_p_group_of_text_blocks-17 .phone-icon,
+#paragraph-d_p_group_of_text_blocks-17 .mail-icon {
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #ad3304;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .address p,
+#paragraph-d_p_group_of_text_blocks-17 .phone p {
+  font-size: 1.2rem;
+  color: #212529cc;
+  font-family: 'Forum', cursive;
+  color: #140504c7;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .mail-link {
+  font-size: 1.2rem;
+  color: #212529cc;
+  text-transform: lowercase;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .page-node-3 a {
+  text-decoration: none;
+}
+
+#paragraph-d_p_group_of_text_blocks-17 .mail-link:hover {
+  color: #fba52b;
+}
+
+.field--name-field-map-html {
+  background: #DCDAD6;
+}
+
 /*Footer page*/
 footer.site-footer .bottom-footer {
   background-color: unset;
@@ -24704,12 +24764,19 @@ footer .region-footer-main .block {
 
 .cta-text {
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .cta-text span {
   color: #b4a6a6;
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .footer-social-icon {

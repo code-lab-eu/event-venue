@@ -77,6 +77,53 @@ header.header {
 .gallery-thumbnail{
   padding: 15px;
 }
+/*Contact page*/
+#paragraph-d_p_group_of_text_blocks-17 {
+  .paragraph--type--d-p-group-of-text-blocks{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .address-column-content,
+  .phone-column-content,
+  .mail-column-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .address-icon,
+  .phone-icon,
+  .mail-icon{
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #ad3304;
+  }
+  .address p,
+  .phone p{
+    font-size: 1.2rem;
+    color: #212529cc;
+    font-family: 'Forum', cursive;
+    color: #140504c7;
+  }
+  .mail-link{
+    font-size: 1.2rem;
+    color: #212529cc;
+    text-transform: lowercase;
+  }
+  .page-node-3 a{
+    text-decoration: none;
+  }
+  .mail-link:hover{
+    color: #fba52b;
+  }
+  
+
+}
+.field--name-field-map-html{
+  background: #DCDAD6;
+}
 
 /*Footer page*/
 footer.site-footer{
@@ -114,11 +161,13 @@ footer .region-footer-main .block {
 
 .cta-text{
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .cta-text span {
   color: #b4a6a6;
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .footer-social-icon {
