@@ -20,6 +20,7 @@ module:
   ctools: 0
   d_block: 0
   d_block_field: 0
+  d_color: 0
   d_content: 0
   d_content_init: 0
   d_lang_dropdown: 0
