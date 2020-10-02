@@ -1,5 +1,17 @@
-# Edit or remove this file as needed.
 # Docs at https://github.com/drush-ops/drush/blob/master/examples/example.site.yml
+pieter:
+  host: pieter@arch-3950x.lan
+  user: pieter
+  root: /home/pieter/v/event-venue
+  uri: http://sunrise.lndo.site:8000
+
+vesi:
+  host: veselka.thinkpad.lan
+  user: veselka
+  root: /home/veselka/Documents/websites/swimming_pool_droopler
+  uri: http://veselka.thinkpad.lan/sunrise
+  paths:
+    drush-script: /home/veselka/Documents/websites/swimming_pool_droopler/vendor/bin/drush
 
 staging:
   host: sunrise.code-lab.eu
