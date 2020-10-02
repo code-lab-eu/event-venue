@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -x
+
 # Get the latest code from the github repository.
 git pull
 
