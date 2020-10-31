@@ -8,6 +8,14 @@ git pull
 
 # Install any new or updated dependencies.
 ./vendor/bin/composer install
+cd ./web/profiles/contrib/droopler/themes/custom/droopler_theme
+npm install
+gulp compile
+cd -
+cd ./web/themes/custom/droopler_subtheme
+npm install
+gulp compile
+cd -
 
 # Regenerate the configuration files since they might have changed.
 lando robo dev:setup
