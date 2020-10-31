@@ -51,7 +51,7 @@ header.header {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 20px;
-} 
+}
 .page-wrapper .paragraph-parallax-text{
   font-family: 'Forum', cursive;
   font-size: 1.3rem;
@@ -92,7 +92,7 @@ header.header {
     flex-wrap: wrap;
     align-items: center;
   }
-  
+
   .address-icon,
   .phone-icon,
   .mail-icon{
@@ -101,7 +101,7 @@ header.header {
     color: #ad3304;
   }
   .address p,
-  .phone p{
+  .phone p {
     font-size: 1.2rem;
     color: #212529cc;
     font-family: 'Forum', cursive;
@@ -118,9 +118,8 @@ header.header {
   .mail-link:hover{
     color: #fba52b;
   }
-  
-
 }
+
 .field--name-field-map-html{
   background: #DCDAD6;
 }
@@ -136,10 +135,11 @@ footer.site-footer{
   border-bottom: 1px solid #373636;
 }
 
-.cta-content{
+.cta-content {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .single-cta i {
   color: #fba52b;
   font-size: 30px;
@@ -155,6 +155,7 @@ footer.site-footer{
   margin-bottom: 2px;
   font-family: 'Tenor Sans', sans-serif;
 }
+
 footer .region-footer-main .block {
   text-align: unset;
 }
@@ -164,6 +165,7 @@ footer .region-footer-main .block {
   display: flex;
   flex-direction: column;
 }
+
 .cta-text span {
   color: #b4a6a6;
   font-family: 'Tenor Sans', sans-serif;
