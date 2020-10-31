@@ -2,3 +2,16 @@ fontawesome_use_cdn: true
 fontawesome_external_location: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
 _core:
   default_config_hash: FRSZcpmPOSSUhwS6ZsOnmp8jprChSvvxu8GnKSIYvag
+tag: i
+method: webfonts
+use_cdn: false
+external_svg_location: ''
+external_svg_integrity: ''
+use_shim: true
+external_shim_location: ''
+allow_pseudo_elements: false
+use_solid_file: true
+use_regular_file: true
+use_light_file: true
+use_brands_file: true
+use_duotone_file: true
