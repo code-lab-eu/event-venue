@@ -11,8 +11,8 @@
     "require": {
         "php": "~7.2",
         "code-lab-eu/robo-drupal-setup": "dev-master",
-        "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6",
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "droptica/droopler": "dev-develop",
         "drupal/core": "^8.8",
         "drupal/core-composer-scaffold": "^8.8",
@@ -20,12 +20,10 @@
         "drupal/photoswipe": "^2.9",
         "drush/drush": "~10.0",
         "fortawesome/font-awesome":"^5.15",
-        "oomphinc/composer-installers-extender": "^1.1",
-        "vlucas/phpdotenv": "^5.2",
-        "zaporylie/composer-drupal-optimizations": "^1.1"
+        "oomphinc/composer-installers-extender": "^2",
+        "vlucas/phpdotenv": "^5.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8",
         "drupal/devel": "^2.1"
     },
     "conflict": {
@@ -53,7 +51,7 @@
                 "web-root": "web/"
             }
         },
-        "installer-types": ["library", "bower-asset", "npm-asset"],
+        "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
             "web/core": ["type:drupal-core"],

@@ -7,7 +7,7 @@ set -x
 git pull
 
 # Install any new or updated dependencies.
-./vendor/bin/composer install
+composer install
 cd ./web/profiles/contrib/droopler/themes/custom/droopler_theme
 npm install
 gulp compile
