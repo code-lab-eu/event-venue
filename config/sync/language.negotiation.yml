@@ -3,8 +3,8 @@ session:
 url:
   source: path_prefix
   prefixes:
-    en: ''
-    bg: bg
+    en: en
+    bg: ''
   domains:
     en: ''
     bg: ''
