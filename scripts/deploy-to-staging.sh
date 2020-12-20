@@ -19,7 +19,11 @@ mkdir -p backups/deploy-$SUFFIX
 ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue && git pull'
 
 # Update dependencies.
-ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue && ./vendor/bin/composer install'
+ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue && composer install'
+ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue/web/profiles/contrib/droopler/themes/custom/droopler_theme && npm install'
+ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue/web/profiles/contrib/droopler/themes/custom/droopler_theme && gulp compile'
+ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue/web/themes/custom/droopler_subtheme && npm install'
+ssh codelab@code-lab.eu 'cd /home/codelab/domains/code-lab.eu/event-venue/web/themes/custom/droopler_subtheme && gulp compile'
 
 # Perform updates.
 ./vendor/bin/drush @staging updatedb --yes
