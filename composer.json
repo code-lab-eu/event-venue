@@ -39,7 +39,6 @@
     },
     "scripts": {
         "post-drupal-scaffold-cmd": [
-            "./vendor/bin/robo environment:setup-basic-auth"
         ]
     },
     "autoload": {

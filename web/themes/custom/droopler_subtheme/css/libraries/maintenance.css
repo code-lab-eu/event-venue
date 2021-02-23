@@ -38,7 +38,7 @@ body.maintenance-page {
   /* LTR */
 }
 
-[dir="rtl"] .maintenance-page .content .section {
+[dir=rtl] .maintenance-page .content .section {
   padding-left: 0;
   padding-right: 10px;
 }
@@ -56,7 +56,7 @@ body.maintenance-page {
   font-size: 90%;
 }
 
-[dir="rtl"] .maintenance-page .site-branding-text {
+[dir=rtl] .maintenance-page .site-branding-text {
   margin-right: 0;
 }
 
@@ -76,17 +76,16 @@ body.maintenance-page {
   .maintenance-page #page-wrapper {
     width: 800px;
   }
+
   .maintenance-page #header div.section,
-  .maintenance-page #main {
+.maintenance-page #main {
     width: 700px;
   }
 }
-
 @media all and (min-width: 600px) {
   /* @TODO find the proper breakpoint */
   .maintenance-page #page {
     margin: 20px 40px 40px;
   }
 }
-
 /*# sourceMappingURL=../maps/libraries/maintenance.css.map */

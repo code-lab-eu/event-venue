@@ -17,7 +17,7 @@
   /* LTR */
 }
 
-[dir="rtl"] .file {
+[dir=rtl] .file {
   padding-left: inherit;
   padding-right: 20px;
   background-position: right center;
@@ -79,5 +79,4 @@
 .file--image {
   background-image: url("/profiles/contrib/droopler/themes/custom/droopler_theme/images/icons/image-x-generic.png");
 }
-
 /*# sourceMappingURL=../maps/libraries/file.css.map */

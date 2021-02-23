@@ -18,7 +18,7 @@ gulp compile
 cd -
 
 # Regenerate the configuration files since they might have changed.
-lando robo dev:setup
+#lando robo dev:setup
 
 # Copy the database.
 lando drush sql:sync @staging @self --yes
