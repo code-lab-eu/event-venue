@@ -1,4 +1,4 @@
-name: sunrise
+name: sunrise-droopler
 recipe: drupal8
 config:
   drush: false
